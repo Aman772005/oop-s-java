@@ -89,26 +89,36 @@
 //     }
 // }
 
-public class lecture_19{
-    public static void main(String[] args) {
-        // person p1 = new person();
-        // p1.intro();
+// public class lecture_19{
+//     public static void main(String[] args) {
+//         // person p1 = new person();
+//         // p1.intro();
 
-        person p2 = new person(){
-            void intro(){
-                System.out.println("i am a guest");
-                name();
-            }
-            void name(){
-                System.out.println("aman");
-            }
-        };
-        p2.intro();
+//         person p2 = new person(){
+//             void intro(){
+//                 System.out.println("i am a guest");
+//                 name(); 
+//             }
+//             void name(){
+//                 System.out.println("aman");
+//             }
+//         };
+//         p2.intro();
+//     }
+// }
+
+// class person{
+//     void intro(){
+//         System.out.println("hii i am person");
+//     }
+// }
+import java.io.IOException;
+public class lecture_19 {
+
+    public static void main(String[] args) throws IOException {
+       int x = System.in.read();
+
+       System.out.println((char)x);
     }
 }
 
-class person{
-    void intro(){
-        System.out.println("hii i am person");
-    }
-}
