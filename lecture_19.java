@@ -112,13 +112,26 @@
 //         System.out.println("hii i am person");
 //     }
 // }
-import java.io.IOException;
+// import java.io.*; 
+// public class lecture_19 {
+
+//     public static void main(String[] args) throws IOException {
+//        int x = System.in.read();
+
+//        System.out.println((char)x);
+//     }
+// }
+
+import java.util.Scanner;
+
 public class lecture_19 {
 
-    public static void main(String[] args) throws IOException {
-       int x = System.in.read();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-       System.out.println((char)x);
+        String name = sc.nextLine();
+
+        System.out.println(name);
     }
 }
 
